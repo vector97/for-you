@@ -85,11 +85,17 @@ iframe {
   margin: 0 auto;
 }
 
+@media (max-width: 320px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
 /*
   У секции добавляю вертикальные паддинги,
   это половина от расстояния между блоками
 */
 
 section {
-  padding: 50px 0;
+  padding: 70px 0;
 }

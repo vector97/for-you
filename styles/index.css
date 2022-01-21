@@ -6,4 +6,5 @@
 
 /* Blocks */
 @import 'header/header.css';
+@import 'pages/pages.css';
 @import 'footer/footer.css';

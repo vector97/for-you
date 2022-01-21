@@ -144,9 +144,9 @@
   }
 }
 
-/* media 320px */
+/* media 480px */
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .header__head {
     padding-top: 15px;
   }

@@ -1,0 +1,148 @@
+/* feedback */
+
+.feedback {
+  background: linear-gradient(to top, rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), center / cover no-repeat url("../../../img/page/background.jpg");
+}
+
+.feedback__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.feedback__heading {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.feedback__subheading {
+  line-height: 26px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback__input {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 9px 25px;
+  border: 1px solid #ffffff;
+  outline: none;
+  border-radius: 50px;
+  background-color: transparent;
+  margin-bottom: 21px;
+  width: 423px;
+}
+
+.feedback__input:last-of-type {
+  margin-bottom: 50px;
+}
+
+.feedback__button {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 500;
+  color: var(--main-font);
+  padding: 11px 38px;
+  background-color: var(--button);
+  box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.feedback__agree {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.feedback__relationsheep {
+  color: #4A76A8;
+  text-decoration: underline;
+}
+
+
+/* media 1024px */
+
+@media (max-width: 1024px) {
+  .feedback__heading {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 16px;
+  }
+
+  .feedback__subheading {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+  }
+
+  .feedback__input {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 8px 23px;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+    max-width: 379px;
+  }
+
+  .feedback__button {
+    margin-bottom: 30px;
+  }
+
+  .feedback__agree {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+/* media 480px */
+
+@media (max-width: 480px) {
+  .feedback__heading {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .feedback__subheading {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    margin-bottom: 35px;
+  }
+
+  .feedback__input {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 6px 18px;
+    border: 1px solid #ffffff;
+    margin-bottom: 15px;
+    max-width: 290px;
+  }
+
+  .feedback__input:last-of-type {
+    margin-bottom: 45px;
+  }
+
+  .feedback__button {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 26px;
+  }
+
+  .feedback__agree {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

@@ -35,7 +35,7 @@
 
 @media (max-width: 1024px) {
   .footer__container {
-    padding: 49px 30px;
+    padding: 25px 30px 49px;
   }
 
   .footer__company {
@@ -60,7 +60,7 @@
 
 @media (max-width: 480px) {
   .footer__container {
-    padding: 25px 15px;
+    padding: 23px 15px;
     flex-wrap: wrap;
   }
 

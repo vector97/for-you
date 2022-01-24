@@ -1,6 +1,7 @@
 /* feedback */
 
 .feedback {
+  padding-top: 72px;
   background: linear-gradient(to top, rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), center / cover no-repeat url("../../../img/page/background.jpg");
 }
 
@@ -15,7 +16,8 @@
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
+  margin-left: -25px;
 }
 
 .feedback__subheading {
@@ -39,7 +41,7 @@
   outline: none;
   border-radius: 50px;
   background-color: transparent;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   width: 423px;
 }
 
@@ -57,7 +59,7 @@
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
   border: none;
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 }
 
 .feedback__agree {
@@ -79,12 +81,15 @@
     font-size: 32px;
     line-height: 37px;
     margin-bottom: 16px;
+    margin-left: -10px;
   }
 
   .feedback__subheading {
     font-size: 20px;
     line-height: 23px;
     font-weight: 500;
+    margin-bottom: 48px;
+    margin-left: 17px;
   }
 
   .feedback__input {
@@ -92,7 +97,7 @@
     line-height: 23px;
     padding: 8px 23px;
     border: 2px solid #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     max-width: 379px;
   }
 
@@ -109,10 +114,15 @@
 /* media 480px */
 
 @media (max-width: 480px) {
+  .feedback {
+    padding-top: 30px;
+  }
+
   .feedback__heading {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
+    margin-left: -2px;
   }
 
   .feedback__subheading {
@@ -120,6 +130,7 @@
     line-height: 14px;
     font-weight: 500;
     margin-bottom: 35px;
+    margin-left: 0;
   }
 
   .feedback__input {
@@ -127,7 +138,7 @@
     line-height: 16px;
     padding: 6px 18px;
     border: 1px solid #ffffff;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     max-width: 290px;
   }
 
@@ -138,7 +149,8 @@
   .feedback__button {
     font-size: 16px;
     line-height: 19px;
-    padding: 10px 26px;
+    padding: 10px 29px;
+    margin-bottom: 29px;
   }
 
   .feedback__agree {
